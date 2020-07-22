@@ -38,13 +38,16 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              width="100"
-              src="image/profile_pic.jpg"
-              class="g_avatar friend__avatar"
-            />
+            <div class="g-avatar griend__avatar">
+              <img
+                width="100"
+                src="image/profile_pic.jpg"
+                alt=""
+                class="g-avatar friend__avatar"
+              />
+            </div>
             <div class="friend__content">
               <span class="friend__name">
                 김다현
@@ -57,14 +60,10 @@
         </div>
       </header>
       <div class="friends__plus">
-        <h5 class="friends__plus-titled">Plus friend</h5>
+        <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              width="100"
-              src="image/plus_friend.jpg"
-              class="g_avatar friend__avatar"
-            />
+            <img src="image/plus_friend.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -75,9 +74,9 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend">
+        <li class="friends__friend friend friend__lg">
           <div class="friend__column">
-            <img width="100" src="image/광현.jpg" alt="" class="g-avatar" />
+            <img src="image/광현.jpg" alt="" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 이광현
@@ -123,5 +122,6 @@
         </li>
       </ul>
     </nav>
+    <div class="warning">화면을 줄여주세요!</div>
   </body>
 </html>
