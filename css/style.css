@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "start.css";
 body {
   background-color: white;
   padding: 10px 20px;
@@ -58,5 +59,6 @@ main {
 @media screen and (min-width: 550px) {
   .warning {
     display: flex;
+    z-index: 0;
   }
 }

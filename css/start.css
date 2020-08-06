@@ -1,0 +1,61 @@
+.start-main {
+  background-color: #fce006;
+  min-height: 200vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-body {
+  padding: 0;
+}
+
+.start-main__logo {
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  left: 10px;
+  padding-top: 50px;
+}
+
+.start-input {
+  display: flex;
+  position: relative;
+  margin: 10px 0;
+  left: -10px;
+  z-index: 10;
+}
+
+.start-input__btn {
+  margin-right: 5px;
+}
+
+@keyframes cover {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes cover2 {
+  from {
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.refresh {
+  animation: cover 1s ease-in-out forwards, cover2 0.1s linear 1s forwards;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
